@@ -1,0 +1,13 @@
+.nav-pills .nav-link.active, 
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active:focus{
+    background-color: lightblue;
+    font-weight: 500;
+    }
+
+
+@media (min-width: 992px) {
+    .bio {
+        max-width: 50%;
+    }
+}

@@ -3,26 +3,30 @@
     <head>
         <meta charset="utf-8">
         <title>Dan McLaughlin | Portfolio</title>
-        <meta name="viewport" content="width-device-width, initial scale=1.0">        
+        <meta name="viewport" content="width-device-width, initial scale=1.0, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <a href="index.html" class="headline">
-                <h1>Dan McLaughlin</h1>
+        <header class="container text-center">
+            <a href="index.html">
+                <h1 class="bg-dark d-inline shadow">Dan McLaughlin</h1>
             </a>
             <nav>
-                <ul>
-                    <li><a href="index.html">Projects</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="resume.html">Resume</a></li>
+                <ul class="nav justify-content-center nav-pills mt-2">
+                    <li class="nav-link"><a href="index.html" class="text-secondary">Projects</a></li>
+                    <li class="nav-link active red"><a href="about.html" class="text-secondary">About Me</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="wrapper">
+        <div class="container mx-auto bio">
             <p>I am an aspiring web developer with a lifelong love of technology. Somehow I never thought to try and make a livelihood from it until after I got a Master's degree in music. The first time I finagled with computers was in the mid-90's. I spent an inordinate amount of time looking through the Warcraft II CD and its section in Program Files (or whatever it was called at the time) to see what I could open, and I remember opening some MIDI files in the audio player. However, I ended up messing up some of the file associations somehow and couldn't fix it. I left it alone since it didn't affect the game and no one else in the family would notice. <br><br>When I'm not studying programming my fondness for technology extends to video games and finagling elsewhere. With respect to gaming, I usually play Destiny 2 with my clanmates in pursuit of "Optimal DPS." Additionally, I help improve and configure our clan's Discord server with the help of Charlemagne and Carl-bot.</p>
             <footer>
-                <p>&copy; 2019 Dan McLaughlin</p>
+                <p class="text-center">&copy; 2019 Dan McLaughlin</p>
             </footer>
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
